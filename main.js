@@ -4843,30 +4843,30 @@ break;
 			break
 			case 'allmenu': {
 				const menunya = `
-╭▰▱▰▱彡「 *USER INFO* 」彡▰▱▰▱
+╭▰▱▰▱彡「 *USER INFO* 」彡▰▱▰▱▰▱▰
 ├ *Name* : ${m.pushName ? m.pushName : 'No Name'}
 ├ *Id* : @${m.sender.split('@')[0]}
 ├ *User* : ${isVip ? 'VIP' : isPremium ? 'PREMIUM' : 'FREE'}
 ├ *Limit* : ${isVip ? 'VIP' : db.users[m.sender].limit }
 ├ *Hella* : ${db.users[m.sender] ? db.users[m.sender].money.toLocaleString('id-ID') : '0'}
 ╰▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱彡
-╭▰▱▰▱─彡「 *BOT INFO* 」彡▰▱▰▱
+╭▰▱▰▱─彡「 *BOT INFO* 」彡▰▱▰▱▰▱▰
 ├ *Botname* : ${botname}
 ├ *Owner* : @${owner[0].split('@')[0]}
 ├ *Mode* : ${qasim.public ? 'Public' : 'Self'}
 ├ *Prefix* :${set.multiprefix ? '「 MULTI-PREFIX 」' : ' *'+prefix+'*' }
 ├ *Premium Feature* : 🅟
 ╰▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱彡
-╭▰▱▰▱─彡「 *ABOUT* 」彡▰▱▰▱
+╭▰▱▰▱─彡「 *ABOUT* 」彡▰▱▰▱▰▱▰
 ├ *Date* : ${tanggal}
 ├ *Day* : ${hari}
 ├ *Time* : ${jam} WIB
 ╰▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱彡
-╭▰▱▰▱彡「 *SETTING* 」彡▰▱▰▱
+╭▰▱▰▱彡「 *SETTING* 」彡▰▱▰▱▰▱▰
 │${setv} ${prefix}bot set
 │${setv} ${prefix}group set
-╰▰▱▰▱▰▱▰▱▰▱▰▱────彡
-╭▰▱▰▱─彡「 *BOT* 」彡▰▱▰▱
+╰▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱彡彡
+╭▰▱▰▱─彡「 *BOT* 」彡▰▱▰▱▰▱▰
 │${setv} ${prefix}profile
 │${setv} ${prefix}claim
 │${setv} ${prefix}buy
@@ -4898,8 +4898,8 @@ break;
 │${setv} ${prefix}addsewa
 │${setv} ${prefix}delsewa
 │${setv} ${prefix}listsewa
-╰▰▱▰▱▰▱▰▱▰▱▰▱────彡
-╭▰▱▰▱彡「 *GROUP* 」彡▰▱▰▱
+╰▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱彡彡
+╭▰▱▰▱彡「 *GROUP* 」彡▰▱▰▱▰▱▰
 │${setv} ${prefix}add
 │${setv} ${prefix}kick
 │${setv} ${prefix}promote
@@ -4920,8 +4920,8 @@ break;
 │${setv} ${prefix}listonline
 │${setv} ${prefix}group set
 │${setv} ${prefix}group
-╰▰▱▰▱▰▱▰▱▰▱▰▱────彡
-╭▰▱▰▱彡「 *TEXTPRO* 」彡▰▱▰▱
+╰▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱彡彡
+╭▰▱▰▱彡「 *TEXTPRO* 」彡▰▱▰▱▰▱▰
 │${setv} ${prefix}mascot
 │${setv} ${prefix}foggy
 │${setv} ${prefix}galaxy
@@ -4939,8 +4939,8 @@ break;
 │${setv} ${prefix}hacker
 │${setv} ${prefix}logo
 │${setv} ${prefix}typo
-╰▰▱▰▱▰▱▰▱▰▱▰▱────彡
-╭▰▱▰▱彡「 *SEARCH* 」彡▰▱▰▱
+╰▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱彡彡
+╭▰▱▰▱彡「 *SEARCH* 」彡▰▱▰▱▰▱▰
 │${setv} ${prefix}ytsearch
 │${setv} ${prefix}spotify
 │${setv} ${prefix}pixiv
@@ -4960,8 +4960,8 @@ break;
 │${setv} ${prefix}weather
 │${setv} ${prefix}tenor
 │${setv} ${prefix}urban
-╰▰▱▰▱▰▱▰▱▰▱▰▱────彡
-╭▰▱▰▱▰▱彡「 *DOWNLOAD* 」彡▰▱▰▱
+╰▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱彡彡
+╭▰▱▰▱▰▱彡「 *DOWNLOAD* 」彡▰▱▰▱▰▱▰
 │${setv} ${prefix}ytmp3
 │${setv} ${prefix}ytmp4
 │${setv} ${prefix}instagram
@@ -4971,8 +4971,8 @@ break;
 │${setv} ${prefix}facebook
 │${setv} ${prefix}spotifydl
 │${setv} ${prefix}mediafire
-╰▰▱▰▱▰▱▰▱▰▱▰▱────彡
-╭▰▱▰▱▰▱彡「 *QUOTES* 」彡▰▱▰▱
+╰▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱彡彡
+╭▰▱▰▱▰▱彡「 *QUOTES* 」彡▰▱▰▱▰▱▰
 │${setv} ${prefix}motivation
 │${setv} ${prefix}islamic
 │${setv} ${prefix}quotes
@@ -4982,8 +4982,8 @@ break;
 │${setv} ${prefix}program
 │${setv} ${prefix}tech
 │${setv} ${prefix}why
-╰▰▱▰▱▰▱▰▱▰▱▰▱────彡
-╭▰▱▰▱▰▱彡「 *TOOLS* 」彡▰▱▰▱
+╰▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱彡彡
+╭▰▱▰▱▰▱彡「 *TOOLS* 」彡▰▱▰▱▰▱▰
 │${setv} ${prefix}get 🅟
 │${setv} ${prefix}hd
 │${setv} ${prefix}define
@@ -5026,14 +5026,14 @@ break;
 │${setv} ${prefix}earrape
 │${setv} ${prefix}nightcore
 │${setv} ${prefix}getexif
-╰▰▱▰▱▰▱▰▱▰▱▰▱────彡
-╭▰▱▰▱▰▱彡「 *AI* 」彡▰▱▰▱
+╰▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱彡彡
+╭▰▱▰▱▰▱彡「 *AI* 」彡▰▱▰▱▰▱▰
 │${setv} ${prefix}ai
 │${setv} ${prefix}simi
 │${setv} ${prefix}gemini
 │${setv} ${prefix}txt2img
-╰▰▱▰▱▰▱▰▱▰▱▰▱────彡
-╭▰▱▰▱▰▱彡「 *ANIME* 」彡▰▱▰▱
+╰▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱彡彡
+╭▰▱▰▱▰▱彡「 *ANIME* 」彡▰▱▰▱▰▱▰
 │${setv} ${prefix}waifu
 │${setv} ${prefix}neko
 │${setv} ${prefix}akiyama
@@ -5055,8 +5055,8 @@ break;
 │${setv} ${prefix}sagiri
 │${setv} ${prefix}sasuke
 │${setv} ${prefix}yuri
-╰▰▱▰▱▰▱▰▱▰▱▰▱────彡
-╭▰▱▰▱▰▱彡「 *GAME* 」彡▰▱▰▱
+╰▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱彡彡
+╭▰▱▰▱▰▱彡「 *GAME* 」彡▰▱▰▱▰▱▰
 │${setv} ${prefix}tictactoe
 │${setv} ${prefix}akinator
 │${setv} ${prefix}suit
@@ -5081,8 +5081,8 @@ break;
 │${setv} ${prefix}tebaknegara
 │${setv} ${prefix}tebakgambar
 │${setv} ${prefix}tebakbendera
-╰▰▱▰▱▰▱▰▱▰▱▰▱────彡
-╭▰▱▰▱▰▱彡「 *FUN* 」彡▰▱▰▱
+╰▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱彡彡
+╭▰▱▰▱▰▱彡「 *FUN* 」彡▰▱▰▱▰▱▰
 │${setv} ${prefix}coba
 │${setv} ${prefix}dadu
 │${setv} ${prefix}bisakah
@@ -5102,8 +5102,8 @@ break;
 │${setv} ${prefix}huluh
 │${setv} ${prefix}heleh
 │${setv} ${prefix}holoh
-╰▰▱▰▱▰▱▰▱▰▱▰▱────彡
-╭▰▱▰▱▰▱彡「 *RANDOM* 」彡▰▱▰▱
+╰▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱彡彡
+╭▰▱▰▱▰▱彡「 *RANDOM* 」彡▰▱▰▱▰▱▰
 │${setv} ${prefix}coffe
 │${setv} ${prefix}technology
 │${setv} ${prefix}programming
@@ -5113,8 +5113,8 @@ break;
 │${setv} ${prefix}game
 │${setv} ${prefix}ronaldo
 │${setv} ${prefix}messi
-╰▰▱▰▱▰▱▰▱▰▱▰▱────彡
-╭▰▱▰▱▰▱彡「 *STALKER* 」彡▰▱▰▱
+╰▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱彡彡
+╭▰▱▰▱▰▱彡「 *STALKER* 」彡▰▱▰▱▰▱▰
 │${setv} ${prefix}wastalk
 │${setv} ${prefix}telestalk
 │${setv} ${prefix}igstalk
@@ -5122,8 +5122,8 @@ break;
 │${setv} ${prefix}npmstalk
 │${setv} ${prefix}githubstalk
 │${setv} ${prefix}genshinstalk
-╰▰▱▰▱▰▱▰▱▰▱▰▱────彡
-╭▰▱▰▱▰▱彡「 *OWNER* 」彡▰▱▰▱
+╰▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱彡彡
+╭▰▱▰▱▰▱彡「 *OWNER* 」彡▰▱▰▱▰▱▰
 │${setv} ${prefix}bot [set]
 │${setv} ${prefix}setbio
 │${setv} ${prefix}setppbot
@@ -5173,7 +5173,7 @@ const caption = `${menunya}\n> © 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 𝐐𝐔
 break
 				case 'set': case 'setting': case 'settings': {
 				m.reply(`
-╭▰▱▰▱彡「 *SETTING* 」彡▰▱▰▱
+╭▰▱▰▱彡「 *SETTING* 」彡▰▱▰▱▰▱▰
 │${setv} ${prefix}bot set
 │${setv} ${prefix}group set
 ╰▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱彡`)
@@ -5181,7 +5181,7 @@ break
 			break
 			case 'botmenu': {
 				m.reply(`
-╭▰▱▰▱彡「 *BOT* 」彡▰▱▰▱
+╭▰▱▰▱彡「 *BOT* 」彡▰▱▰▱▰▱▰
 │${setv} ${prefix}profile
 │${setv} ${prefix}claim
 │${setv} ${prefix}buy
@@ -5218,7 +5218,7 @@ break
 			break
 			case 'groupmenu': {
 				m.reply(`
-╭▰▱▰▱彡「 *GROUP* 」彡▰▱▰▱
+╭▰▱▰▱彡「 *GROUP* 」彡▰▱▰▱▰▱▰
 │${setv} ${prefix}add
 │${setv} ${prefix}kick
 │${setv} ${prefix}promote
@@ -5244,7 +5244,7 @@ break
 			break
 				case 'textpro': {
 				m.reply(`
-╭▰▱▰▱彡「 *TEXTPRO* 」彡▰▱▰▱
+╭▰▱▰▱彡「 *TEXTPRO* 」彡▰▱▰▱▰▱▰
 │${setv} ${prefix}mascot
 │${setv} ${prefix}foggy
 │${setv} ${prefix}galaxy
@@ -5267,7 +5267,7 @@ break
 			break
 			case 'searchmenu': {
 				m.reply(`
-╭▰▱▰▱彡「 *SEARCH* 」彡▰▱▰▱
+╭▰▱▰▱彡「 *SEARCH* 」彡▰▱▰▱▰▱▰
 │${setv} ${prefix}ytsearch
 │${setv} ${prefix}spotify
 │${setv} ${prefix}pixiv
@@ -5292,7 +5292,7 @@ break
 			break
 			case 'downloadmenu': {
 				m.reply(`
-╭▰▱▰▱彡「 *DOWNLOAD* 」彡▰▱▰▱
+╭▰▱▰▱彡「 *DOWNLOAD* 」彡▰▱▰▱▰▱▰
 │${setv} ${prefix}ytmp3
 │${setv} ${prefix}ytmp4
 │${setv} ${prefix}instagram
@@ -5307,7 +5307,7 @@ break
 			break
 			case 'quotesmenu': {
 				m.reply(`
-╭▰▱▰▱彡「 *QUOTES* 」彡▰▱▰▱
+╭▰▱▰▱彡「 *QUOTES* 」彡▰▱▰▱▰▱▰
 │${setv} ${prefix}motivation
 │${setv} ${prefix}islamic
 │${setv} ${prefix}quotes
@@ -5322,7 +5322,7 @@ break
 			break
 			case 'toolsmenu': {
 				m.reply(`
-╭▰▱▰▱彡「 *TOOLS* 」彡▰▱▰▱
+╭▰▱▰▱彡「 *TOOLS* 」彡▰▱▰▱▰▱▰
 │${setv} ${prefix}get 🅟
 │${setv} ${prefix}hd
 │${setv} ${prefix}define
@@ -5370,7 +5370,7 @@ break
 			break
 			case 'aimenu': {
 				m.reply(`
-╭▰▱▰▱彡「 *AI* 」彡▰▱▰▱
+╭▰▱▰▱彡「 *AI* 」彡▰▱▰▱▰▱▰
 │${setv} ${prefix}ai 
 │${setv} ${prefix}simi
 │${setv} ${prefix}gemini
@@ -5380,7 +5380,7 @@ break
 			break
 			case 'randommenu': {
 				m.reply(`
-╭▰▱▰▱彡「 *RANDOM* 」彡▰▱▰▱
+╭▰▱▰▱彡「 *RANDOM* 」彡▰▱▰▱▰▱▰
 │${setv} ${prefix}coffee
 │${setv} ${prefix}technology
 │${setv} ${prefix}programming
@@ -5395,7 +5395,7 @@ break
 			break
 			case 'stalkermenu': {
 				m.reply(`
-╭▰▱▰▱彡「 *STALKER* 」彡▰▱▰▱
+╭▰▱▰▱彡「 *STALKER* 」彡▰▱▰▱▰▱▰
 │${setv} ${prefix}wastalk
 │${setv} ${prefix}telestalk
 │${setv} ${prefix}igstalk
@@ -5408,7 +5408,7 @@ break
 			break
 			case 'animemenu': {
 				m.reply(`
-╭▰▱▰▱彡「 *ANIME* 」彡▰▱▰▱
+╭▰▱▰▱彡「 *ANIME* 」彡▰▱▰▱▰▱▰
 │${setv} ${prefix}waifu
 │${setv} ${prefix}neko
 │${setv} ${prefix}akiyama
@@ -5435,7 +5435,7 @@ break
 			break
 			case 'gamemenu': {
 				m.reply(`
-╭▰▱▰▱彡「 *GAME* 」彡▰▱▰▱
+╭▰▱▰▱彡「 *GAME* 」彡▰▱▰▱▰▱▰
 │${setv} ${prefix}tictactoe
 │${setv} ${prefix}akinator
 │${setv} ${prefix}suit
@@ -5465,7 +5465,7 @@ break
 			break
 			case 'funmenu': {
 				m.reply(`
-╭▰▱▰▱彡「 *FUN* 」彡▰▱▰▱
+╭▰▱▰▱彡「 *FUN* 」彡▰▱▰▱▰▱▰
 │${setv} ${prefix}coba
 │${setv} ${prefix}dadu
 │${setv} ${prefix}bisakah
@@ -5490,7 +5490,7 @@ break
 			break
 			case 'ownermenu': {
 				m.reply(`
-╭▰▱▰▱彡「 *OWNER* 」彡▰▱▰▱
+╭▰▱▰▱彡「 *OWNER* 」彡▰▱▰▱▰▱▰
 │${setv} ${prefix}bot [set]
 │${setv} ${prefix}setbio
 │${setv} ${prefix}setppbot
